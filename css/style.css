@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'MyriadPro Regular';
+  src: url(../fonts/MyriadPro-Regular.otf) format("opentype");
+}
+.box1,
+.box2,
+.box3 {
+  border-bottom: 1px solid gray;
+  max-width: 500px;
+  margin-left: 264px;
+}
+.box4 {
+  margin-left: 264px;
+}
+
+.cv {
+  margin: 0 auto;
+  width: 1024px;
+  height: 1024px;
+  background-color: #f4f3f4;
+}
+h1 {
+  font-family: arial;
+  font-weight: bold;
+  font-size: 27px;
+  text-align: center;
+  padding-top: 50px;
+}
+img {
+  width: : 200px;
+  height: 200px;
+  margin-left: 150px;
+
+}
+.job {
+  font-family: arial;
+  font-weight: normal;
+  font-size: 14px;
+  color: #1f1f1f;
+}
+p {
+  font-family: arial;
+  font-weight: normal;
+  font-size: 14px;
+  color: #1f1f1f;
+}
+h2 {
+  font-family: 'MyriadPro Regular', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+ul {
+  font-family: 'MyriadPro Regular', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+}
+a {
+  font-family: 'MyriadPro Regular', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  margin-left: 10px;
+  color: #0056d3;
+  font-style: italic;
+}
