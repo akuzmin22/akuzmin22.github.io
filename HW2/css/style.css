@@ -8,6 +8,7 @@ body {
     width: 1060px;
     height: 950px;
     background-color: #fff;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
 }
 
 .logo {
@@ -25,10 +26,30 @@ body {
 
 .menu1 li{
     display: inline-block;
-    padding: 12px 24px;
+    padding: 12px 39px;
     text-shadow: 1px 1px 2px black;
     border-left: 1px solid transparent;
     border-right: 1px solid transparent;
+}
+
+.menu1 li:hover {
+    padding: 12px 39px;
+    background-color: #444;
+    background: linear-gradient(to bottom, #4a4a4a, #2e2e2e);
+    border-left: 1px solid #838383;
+    border-right: 1px solid #838383;
+}
+
+.menu1 li:first-child {
+    padding-left: 24px;
+}
+
+.menu1 li:first-child:hover {
+    padding: 12px 39px 12px 24px;
+    background-color: #444;
+    background: linear-gradient(to bottom, #4a4a4a, #2e2e2e);
+    border-left: 1px solid #838383;
+    border-right: 1px solid #838383;
 }
 
 .menu1 a {
@@ -36,14 +57,6 @@ body {
     font-size: 14.67px;
     text-decoration: none;
     color: #fff;
-}
-
-.menu1 li:hover {
-    padding: 12px 24px;
-    background-color: #444;
-    background: linear-gradient(to bottom, #4a4a4a, #2e2e2e);
-    border-left: 1px solid #838383;
-    border-right: 1px solid #838383;
 }
 
 .menu2 {
@@ -92,9 +105,10 @@ body {
 }
 
 .text {
-    width: 678px;
+    width: 630px;
+    height: 160px;
     margin-right: 48px;
-    margin-top: 40px;
+    padding: 40px 25px;
     float: right;
 }
 
@@ -102,8 +116,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 13.33px;
     color: #2c2c2c;
-    line-height: 20px;
-    padding-left: 24px;
+    line-height: 21px;
 }
 
 .footer {
@@ -111,6 +124,7 @@ body {
     height: 40px;
     margin-left: 45px;
     margin-top: 700px;
+    margin-bottom: 60px;
     background-color: #e1e1e1;
 }
 
@@ -125,7 +139,6 @@ body {
     font-size: 13.33px;
     text-decoration: none;
     color: #2c2c2c;
-
 }
 
 .footer li:nth-child(n+2) {
