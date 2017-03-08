@@ -12,7 +12,6 @@ body {
 
 .logo {
     margin-left: 45px;
-    /*padding-top: 50px;*/
 }
 
 .menu1 {
@@ -22,15 +21,14 @@ body {
     height: 40px;
     margin-top: 50px;
     margin-left: 45px;
-    /*border-left: 1px solid transparent;
-    border-right: 1px solid transparent;*/
 }
 
 .menu1 li{
     display: inline-block;
-    margin-left: 24px;
-    padding-top: 12px;
+    padding: 12px 24px;
     text-shadow: 1px 1px 2px black;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
 }
 
 .menu1 a {
@@ -40,19 +38,12 @@ body {
     color: #fff;
 }
 
-.menu1 a:hover {
-    /*width: 98px;
-    height: 40px;*/
-    padding: 9px 25px 10px 25px;
+.menu1 li:hover {
+    padding: 12px 24px;
     background-color: #444;
     background: linear-gradient(to bottom, #4a4a4a, #2e2e2e);
     border-left: 1px solid #838383;
     border-right: 1px solid #838383;
-}
-
-.menu1 li:nth-child(n+2) {
-    padding-left: 86px;
-    margin: 0;
 }
 
 .menu2 {
@@ -127,7 +118,6 @@ body {
     display: inline-block;
     margin-left: 24px;
     padding-top: 12px;
-    text-shadow: 0 0 1px black;
 }
 
 .footer a {
