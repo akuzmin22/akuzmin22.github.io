@@ -127,13 +127,11 @@ body {
     margin-bottom: 60px;
     background-color: #e1e1e1;
 }
-
 .footer li {
     display: inline-block;
     margin-left: 24px;
     padding-top: 12px;
 }
-
 .footer a {
     font-family: 'Open Sans', sans-serif;
     font-size: 13.33px;
