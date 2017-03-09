@@ -1,0 +1,38 @@
+.container {
+    margin: 0 auto;
+    width: 1280px;
+    height: 1060px;
+    margin-bottom: 30px;
+    background-image: url(../img/background.png);
+}
+
+.google {
+    margin: 0 auto;
+    width: 1280px;
+    height: 38px;
+}
+
+.white_block {
+    width: 1000px;
+    height: 988px;
+    border-bottom: 3px solid #031d28;
+    box-shadow: 0px 3px 6.51px 0.49px rgba(3, 29, 40, 0.4);
+    margin-left: 150px;
+    background-color: #fff;
+
+}
+
+.logo img{
+    position: absolute;
+    padding-top: 11px;
+    padding-left: 28px;
+}
+
+.logo p {
+    position: relative;
+    font-family: Tahoma, sans-serif;
+    font-size: 12px;
+    color: #128aa7;
+    padding-top: 111px;
+    padding-left: 100px;
+}
