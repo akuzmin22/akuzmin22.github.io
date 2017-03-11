@@ -1,3 +1,7 @@
+body {
+    position: relative;
+}
+
 .container {
     margin: 0 auto;
     width: 1280px;
@@ -13,6 +17,7 @@
 }
 
 .white_block {
+    position: relative;
     width: 1000px;
     height: 988px;
     border-bottom: 3px solid #031d28;
@@ -23,16 +28,164 @@
 }
 
 .logo img{
-    position: absolute;
     padding-top: 11px;
     padding-left: 28px;
 }
 
 .logo p {
-    position: relative;
+    position: absolute;
+    top: 111px;
+    left: 100px;
     font-family: Tahoma, sans-serif;
     font-size: 12px;
     color: #128aa7;
-    padding-top: 111px;
-    padding-left: 100px;
+}
+
+.contacts {
+    position: absolute;
+    top: 11px;
+    left: 843px;
+}
+
+.contacts h2 {
+    font-family: Tahoma, sans-serif;
+    font-size: 12px;
+    color: #128aa7;
+    line-height: 20px;
+}
+
+.contacts p {
+    font-family: Tahoma, sans-serif;
+    font-size: 12px;
+    color: #128aa7;
+    line-height: 16px;
+}
+
+.countries {
+    position: absolute;
+    top: 111px;
+    left: 640px;
+}
+
+.countries li {
+    display: inline-block;
+    list-style: none;
+}
+
+.countries img {
+    display: block;
+    padding: 0 5px;
+}
+
+.countries a {
+    display: block;
+    font-family: Tahoma, sans-serif;
+    font-size: 10px;
+    color: #128aa7;
+    text-align: center;
+}
+
+.slider {
+    position: absolute;
+    top: 175px;
+    width: 1000px;
+    height: 237px;
+    border-top: 1px solid #128aa7;
+    border-bottom: 1px solid #128aa7;
+}
+
+.navmenu {
+    position: absolute;
+    top: 414px;
+    z-index: 1;
+    width: 1000px;
+    height: 28px;
+    border-top: 1px solid #cacbcb;
+    border-bottom: 1px solid #000;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3);
+    background-color: #343434;
+}
+
+.navmenu li {
+    display: inline-block;
+    list-style: none;
+    padding: 6px 32px;
+}
+
+.navmenu a {
+    font-family: Tahoma, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navmenu span {
+    color: #fff;
+    font-size: 8px;
+}
+
+.coll_left {
+    position: absolute;
+    top: 442px;
+    z-index: 0;
+    float: left;
+    width: 208px;
+    height: 546px;
+    background-color: #edeef0;
+    border-left: 1px solid #c7cacf;
+    border-right: 1px solid #c7cacf;
+}
+
+.coll_left h2 {
+    font-family: Tahoma , sans-serif;
+    font-size: 18px;
+    color: #424c43;
+    padding: 12px 49px 9px 49px;
+}
+
+.coll_left p {
+    font-family: Tahoma, sans-serif;
+    font-size: 14px;
+    color: #424c43;
+    padding-left: 15px;
+    line-height: 24px;
+}
+
+.coll_right {
+    position: absolute;
+    top: 442px;
+    left: 790px;
+    z-index: 0;
+    width: 208px;
+    height: 546px;
+    background-color: #edeef0;
+    border-left: 1px solid #c7cacf;
+    border-right: 1px solid #c7cacf;
+}
+
+.coll_right h2 {
+    font-family: Tahoma , sans-serif;
+    font-size: 18px;
+    color: #424c43;
+    padding: 12px 67px 9px 71px;
+}
+
+.coll_right p {
+    font-family: Tahoma, sans-serif;
+    font-size: 14px;
+    color: #424c43;
+    padding-left: 15px;
+    line-height: 24px;
+}
+
+.copyright {
+    position: absolute;
+    top: 1038px;
+    left: 552px;
+}
+
+.copyright p {
+    font-family: Tahoma, sans-serif;
+    font-size: 12px;
+    color: #fff;
 }
