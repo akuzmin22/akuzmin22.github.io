@@ -112,6 +112,10 @@ body {
     padding: 6px 32px;
 }
 
+.navmenu li:first-child {
+    padding-left: 66px;
+}
+
 .navmenu a {
     font-family: Tahoma, sans-serif;
     font-size: 14px;
