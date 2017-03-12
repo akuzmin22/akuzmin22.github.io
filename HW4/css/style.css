@@ -1,8 +1,5 @@
-body {
-    position: relative;
-}
-
 .container {
+    position: relative;
     margin: 0 auto;
     width: 1280px;
     height: 1060px;
@@ -24,7 +21,6 @@ body {
     box-shadow: 0px 3px 6.51px 0.49px rgba(3, 29, 40, 0.4);
     margin-left: 150px;
     background-color: #fff;
-
 }
 
 .logo img{
@@ -106,13 +102,47 @@ body {
     background-color: #343434;
 }
 
-.navmenu li {
+.navmenu ul li {
     display: inline-block;
     list-style: none;
-    padding: 6px 32px;
+    padding: 6px 30px;
 }
 
-.navmenu li:first-child {
+/* ВЫПАДАЮЩЕЕ МЕНЮ*/
+.navmenu ul {
+    position: relative;
+}
+
+.navmenu ul ul {
+    display: none;
+    position: absolute;
+    left: 174px;
+    top: 28px;
+    width: 150px;
+    height: 125px;
+    background-color: #303030;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.vupad li {
+    margin-left: -21px;
+    margin-bottom: -5px;
+}
+
+.navmenu li:hover ul {
+    display: block;
+}
+
+.navmenu li:hover li {
+    display: block;
+}
+/*КОНЕЦ ВЫПАДАЮЩЕГО МЕНЮ*/
+
+/*.navmenu li:first-child {
+    padding-left: 66px;
+}*/
+
+#main {
     padding-left: 66px;
 }
 
