@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue Regular';
+    src: url('../fonts/helveticaneue-thin-webfont.eot');
+    src: url('../fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thin-webfont.woff') format('woff'),
+         url('../fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.wrapper {
+    position: relative;
+    margin: 30px;
+    width: 1215px;
+    height: 1064px;
+    margin: 0 auto;
+}
+
+.list {
+    width: 1215px;
+    height: 36px;
+    background-color: #074e8c;
+}
+
+.list ul {
+    float: left;
+    margin-left: 469px;
+}
+
+.list li {
+    display: inline-block;
+    list-style: none;
+    padding: 9px 14px 9px 14px;
+}
+
+.list li:hover {
+    padding: 9px 14px 9px 14px;
+    background-color: #4eabda;
+}
+
+.list li:last-child {
+    border-right: 1px solid #56a2dc;
+    padding-right: 5px;
+}
+
+.list a {
+    font-family: 'Helvetica Neue Regular';
+    font-size: 14px;
+    font-weight: normal;
+    color: #60b5ed;
+    text-decoration: none;
+}
+
+.list a:hover {
+    color: #fff;
+}
+
+.topbtn {
+    position: absolute;
+    top: 0;
+    right: 19px;
+}
+
+.topbtn li {
+    display: inline-block;
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.topbtn a {
+    font-family: 'Helvetica Neue Regular';
+    font-size: 14px;
+    font-weight: normal;
+    color: #fff;
+    text-decoration: none;
+}
+
+.topbtn p {
+    font-family: 'Helvetica Neue Regular';
+    font-size: 14px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.topbtn button {
+    height: 36px;
+    width: 191px;
+    background-color: #307dc6;
+    border: 1px solid #4299d2;
+    background: linear-gradient(to bottom, #51b1dc, #2e7ac4);
+}
+
+.topbtn button a {
+    text-decoration: underline;
+}
+
+.form {
+    display: block;
+    position: absolute;
+    top: 213px;
+    left: 327px;
+    width: 559px;
+    height: 613px;
+    background-color: rgba(0,0,0,0.63);
+}
+
+.form h3 {
+    font-family: 'Helvetica Neue Regular';
+    color: #bfc7ba;
+    font-size: 24px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    text-align: center;
+    border-bottom: 2px solid #bfc7ba;
+    line-height: 20px;
+}
+
+.form button {
+    width: 276px;
+    height: 34px;
+    display: inline-block;
+    border-top: 1px solid #758ab5;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background-color: #3d5792;
+    background: linear-gradient(to bottom, #3d5792, #334166);
+    border-radius: 3px;
+    margin-top: 36px;
+    margin-left: 142px;
+}
+
+.form button li {
+    display: inline-block;
+    list-style: none;
+}
+
+.form button p {
+    color: #fff;
+}
+
+.form span {
+    font-weight: bold;
+}
+
+.form .fa-facebook {
+    font-size: 18px;
+}
+
+.form button li:first-child {
+    border-right: 1px solid #4d66a6;
+    padding: 7px 12px;
+}
+
+.form button li:last-child {
+    padding: 9px 40px;
+}
+
+fieldset {
+    width: 276px;
+    margin-left: 142px;
+    margin-top: 37px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+legend {
+    font-family: 'Helvetica Neue Regular';
+    text-align: center;
+    color: #bfc7ba;
+    font-size: 14px;
+    padding: 0 6px;
+}
+
+input[type="text"],
+input[type="e-mail"],
+input[type="password"] {
+    width: 256px;
+    height: 35px;
+    margin: 10px 0;
+    background-color: #0f0f0f;
+    border-bottom: 1px solid #484948;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-left: 20px;
+    color: #ccc;
+    font-family: 'Helvetica Neue Regular';
+    color: #ccc;
+    font-size: 14px;
+}
+
+input[type="text"]:hover,
+input[type="e-mail"]:hover,
+input[type="password"]:hover,
+input[type="text"]:focus,
+input[type="e-mail"]:focus,
+input[type="password"]:focus {
+    border-bottom: 1px solid #484948;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #1b5288;
+    box-shadow: 0px 0px 5px 3px rgba(104,155,205,.8);
+}
+
+input[type="checkbox"] {
+    margin-top: 10px;
+}
+
+form label {
+    font-family: 'Helvetica Neue Regular';
+    color: #ccc;
+    font-size: 14px;
+    padding-left: 8px;
+}
+
+.bott_btn button {
+    width: 151px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #506875;
+    background-color: #3a8ecd;
+    background: linear-gradient(to bottom, #51b0dc, #2e7ac4);
+    margin-left: 206px;
+    margin-top: 25px;
+    color: #fff;
+}
+
+.bott_btn {
+    padding-bottom: 18px;
+}
+
+.notif p {
+    font-family: 'Helvetica Neue Regular';
+    color: #ccc;
+    font-size: 11px;
+    text-align: center;
+}
