@@ -260,6 +260,15 @@ form label {
     color: #fff;
 }
 
+.bott_btn button:hover {
+    width: 151px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #506875;
+    background-color: #3a8ecd;
+    background: linear-gradient(to bottom, #2e7ac4, #51b0dc);
+}
+
 .bott_btn {
     padding-bottom: 18px;
 }
