@@ -15,35 +15,28 @@
 }
 
 .wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /*position: relative;*/
-    /*margin: 30px;
-    width: 1215px;
+    max-width: 100vw;
     height: 1064px;
-    margin: 0 auto;*/
-/*изменения*/
-    width: 100vw;
-    min-height: 100vh;
-/*изменения*/
 }
 
-/*изменения*/
-/*.background {
+.flex_cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/background4.png');
     max-width: 100vw;
-}*/
+    height: 1064px;
+}
 
-
-.list {
-    max-width: 100vw;
+.navbar {
+    width: 100%;
     height: 36px;
     background-color: #074e8c;
 }
 
-.list ul {
+.list {
     float: left;
-    margin-left: 600px;/*правка, изначально 469пикс*/
+    padding-left: 35%;
 }
 
 .list li {
@@ -75,9 +68,9 @@
 }
 
 .topbtn {
-    position: absolute;
-    top: 0;
-    right: 19px;
+    float: right;
+    padding-left: 1%;
+    padding-right: 2%;
 }
 
 .topbtn li {
@@ -110,18 +103,19 @@
     background: linear-gradient(to bottom, #51b1dc, #2e7ac4);
 }
 
+.topbtn button:hover {
+    height: 36px;
+    width: 191px;
+    background-color: #307dc6;
+    border: 1px solid #4299d2;
+    background: linear-gradient(to bottom, #2e7ac4, #51b1dc);
+}
+
 .topbtn button a {
     text-decoration: underline;
 }
 
 .form {
-    display: flex;
-    align-self: center;
-    flex-direction: column;
-    /*justify-content: center;*/
-    /*position: absolute;
-    top: 213px;
-    left: 327px;*/
     width: 559px;
     height: 613px;
     background-color: rgba(0,0,0,0.63);
@@ -153,13 +147,28 @@
     margin-left: 142px;
 }
 
+.form button:hover {
+    width: 276px;
+    height: 34px;
+    border-top: 1px solid #758ab5;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background-color: #3d5792;
+    background: linear-gradient(to bottom, #334166, #3d5792);
+    border-radius: 3px;
+}
+
 .form button li {
     display: inline-block;
     list-style: none;
 }
 
 .form button p {
+    font-family: 'Arial';
+    font-size: 12px;
     color: #fff;
+    text-align: center;
 }
 
 .form span {
