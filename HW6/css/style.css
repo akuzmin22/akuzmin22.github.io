@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+    height: 1310px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    display: flex;
+    padding: 17px 52px 10px 52px;
+    justify-content: space-around;
+}
+
+.phone p {
+    font-family: arial, sans-serif;
+    color: #5e696d;
+    font-size: 18px;
+}
+
+.phone i {
+    color: #114266;
+}
+
+.reg form {
+    height: 25px;
+    width: 495px;
+    display: flex;
+    background-color: #164f71;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px 0px rgba(193, 193, 193, 0.5);
+    background: linear-gradient(to bottom, #1f6787, #0c3357);
+}
+
+.reg i{
+    color: #fff;
+    margin: 4px 0 3px 7px;
+}
+
+.reg input[type="text"],
+.reg input[type="password"] {
+    width: 107px;
+    height: 14px;
+    border: 1px solid #82949c;
+    border-radius: 2px;
+    margin: 3px;
+    padding-left: 4px;
+    vertical-align: middle;
+    font-family: 'Lucida Sans Unicode Regular', sans-serif;
+    font-size: 11px;
+}
+
+.reg a {
+    font-family: arial, sans-serif;
+    font-size: 11px;
+    text-decoration: none;
+    color: #fff;
+    margin: 3px;
+}
+
+.reg {
+    color: #fff;
+}
+
+.reg .fpass a {
+    font-family: 'Lucida Sans Unicode Regular', sans-serif;
+    text-decoration: underline;
+    color: #bfbfbf;
+    font-size: 12px;
+    margin-left: 18px;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 77px;
+    height: 21px;
+    border-radius: 16px;
+    border: 1px solid #c1c8cb;
+    box-shadow: 0px 2px 2px 0px rgba(202, 207, 210, 0.5);
+}
+
+.topnav i {
+    color: #98a3a7;
+    text-align: center;
+    font-size: 12px;
+}
