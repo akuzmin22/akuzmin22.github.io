@@ -99,25 +99,67 @@ align-self: center;
 }
 
 nav {
+    display: flex;
     align-self: center;
     width: 910px;
-    height: 32px;
+    height: 33px;
     margin-top: 3px;
     background-color: #1c1f22;
     background: linear-gradient(to bottom, #4d5663, #010101);
     border: 1px solid #2c345a;
     border-radius: 4px;
+    box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.75); 
+}
+
+nav ul {
+    margin-left: 132px;
 }
 
 nav li {
     display: inline-block;
     list-style: none;
+    padding: 5px 11px;
+    border: 1px solid transparent;
+}
+
+nav li:hover {
+    background-color: #185476;
+    border-radius: 15px;
+    background: linear-gradient(to bottom, #1f6787, #0d3458);
+    border: 1px solid #09233b;
+    padding: 2px 11px;
+}
+
+nav a:hover {
+    color: #fff;
 }
 
 nav a {
+    display: block;
+    height: 100%;
     font-family: 'Lucida Sans Unicode Regular', sans-serif;
     font-size: 14px;
     text-decoration: none;
     color: #b1bcc0;
     text-transform: uppercase;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.cart p {
+    display: inline-block;
+    font-family: arial, sans-serif;
+    font-size: 11px;
+    color: #929b9f;
+    padding: 5px;
+}
+
+.cart span,
+.cart i {
+    color: #0d5a8f;
+    font-size: 12px;
 }
