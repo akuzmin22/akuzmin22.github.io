@@ -108,7 +108,7 @@ nav {
     background: linear-gradient(to bottom, #4d5663, #010101);
     border: 1px solid #2c345a;
     border-radius: 4px;
-    box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.75); 
+    box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 nav ul {
@@ -162,4 +162,195 @@ nav a {
 .cart i {
     color: #0d5a8f;
     font-size: 12px;
+}
+
+.forms {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 49px;
+    padding-right: 51px;
+    margin-top: 12px;
+}
+
+.fisrt_f {
+    display: flex;
+    width: 414px;
+    height: 132px;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    box-shadow: 3px 4px 5px 0px rgba(150, 150, 150, 0.75);
+}
+
+.fisrt_f h4 {
+    display: inline-block;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 10px;
+    color: #154468;
+}
+
+.fisrt_f h3 {
+    display: inline-block;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 12px;
+    color: #154468;
+}
+
+.second_f {
+    display: flex;
+    width: 191px;
+    height: 132px;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    box-shadow: 3px 4px 5px 0px rgba(150, 150, 150, 0.75);
+}
+
+.third_f {
+    display: flex;
+    width: 265px;
+    height: 132px;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    box-shadow: 3px 4px 5px 0px rgba(150, 150, 150, 0.75);
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 46px;
+    padding-left: 45px;
+}
+
+.left_side {
+    padding-top: 19px;
+}
+
+.left_side li {
+    list-style: none;
+    padding-left: 35px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.left_side li:hover {
+    color: #0c3256;
+    font-family: 'arial', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.left_side ul {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.left_side li::before {
+    color: #8b979c;
+    content: "○";
+}
+
+.left_side h2 {
+    width: 170px;
+    padding: 5px 7px 5px 3px;
+    margin-bottom: 8px;
+    font-family: 'Lucida Sans Unicode Regular', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #114165;
+    border: 1px solid #8b979c;
+    border-radius: 16px;
+    line-height: 13px;
+    box-shadow: 2px 3px 3px 0px rgba(150, 150, 150, 0.75);
+}
+
+.left_side i {
+    color: #114165;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.left_side h1 {
+    font-family: 'Lucida Sans Unicode Regular', sans-serif;
+    color: #114165;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: 68px;
+    padding: 5px 75px 5px 3px;
+    border: 1px solid #8b979c;
+    border-radius: 16px;
+    line-height: 14px;
+}
+
+.left_side a {
+  font-family: 'Lucida Sans Unicode Regular', sans-serif;
+  color: #465961;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 13px;
+}
+
+.tovar_bg {
+    width: 527px;
+    height: 628px;
+    margin-top: 15px;
+    background-color: #e5e7e8;
+    background: linear-gradient(to bottom, #e5e7e8, #93a7b0);
+    border-radius:3px;
+}
+
+.right_side {
+    padding-top: 19px;
+}
+
+.right_side li {
+    list-style: none;
+    margin-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.right_side ul {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.right_side h2 {
+    width: 170px;
+    padding: 5px 7px 5px 3px;
+    margin-bottom: 8px;
+    font-family: 'Lucida Sans Unicode Regular', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #114165;
+    border: 1px solid #8b979c;
+    border-radius: 16px;
+    line-height: 13px;
+    box-shadow: 2px 3px 3px 0px rgba(150, 150, 150, 0.75);
+}
+
+.right_side i {
+    color: #114165;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.right_side h1 {
+    font-family: 'Lucida Sans Unicode Regular', sans-serif;
+    color: #114165;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: 68px;
+    padding: 5px 61px 5px 3px;
+    border: 1px solid #8b979c;
+    border-radius: 16px;
+    line-height: 14px;
+    margin-left: 20px;
+}
+
+.right_side label {
+  font-family: 'Lucida Sans Unicode Regular', sans-serif;
+  color: #465961;
+  text-decoration: none;
+  font-size: 13px;
 }
