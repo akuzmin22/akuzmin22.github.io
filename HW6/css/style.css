@@ -290,14 +290,6 @@ nav a {
   line-height: 13px;
 }
 
-.tovar_bg {
-    width: 527px;
-    height: 628px;
-    margin-top: 15px;
-    background-color: #e5e7e8;
-    background: linear-gradient(to bottom, #e5e7e8, #93a7b0);
-    border-radius:3px;
-}
 
 .right_side {
     padding-top: 19px;
@@ -353,4 +345,64 @@ nav a {
   color: #465961;
   text-decoration: none;
   font-size: 13px;
+}
+
+.tovar_bg {
+  display: flex;
+  width: 527px;
+  height: 628px;
+  margin-top: 15px;
+  background-color: #e5e7e8;
+  background: linear-gradient(to bottom, #e5e7e8, #93a7b0);
+  border-radius:3px;
+}
+
+.tovar_bg ul {
+    margin-left: 7px;
+}
+
+.tovar_bg div {
+    display: inline-block;
+    margin: 15px 14px 15px 14px;
+}
+
+.tovar_bg li {
+   width: 136px;
+   height: 127px;
+   background-color: #fff;
+   border: 1px solid #a7b1b4;
+   border-radius: 4px;
+   list-style: none;
+}
+
+.tovar_bg h3 {
+    font-family: 'Lucida Sans Unicode Regular', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #206988;
+    line-height: 15px;
+}
+
+.tovar_bg p {
+    font-family: 'Lucida Sans Unicode Regular', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    color: #1f2528;
+    line-height: 13px;
+}
+
+.tovar_bg span {
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+    color: #114165;
+    line-height: 16px;
+    padding-left: 38px;
+}
+
+.tovar_bg img {
+    display: block;
+    margin: auto;
+    margin-top: 3px;
 }
