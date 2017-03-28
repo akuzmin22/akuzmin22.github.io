@@ -344,10 +344,28 @@ nav a {
 }
 
 .right_side label {
-  font-family: 'Lucida Sans Unicode Regular', sans-serif;
-  color: #465961;
-  text-decoration: none;
-  font-size: 13px;
+    font-family: 'Lucida Sans Unicode Regular', sans-serif;
+    color: #465961;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+button {
+    width: 80px;
+    height: 26px;
+    margin-left: 28px;
+    background-color: #0f3b60;
+    color: #e5e9ea;
+    font-family: arial, sans-serif;
+    font-size: 11px;
+    border-radius: 20px;
+    border: 1px solid #7a95a1;
+    background: linear-gradient(to bottom, #1f6787, #0c3357);
+    box-shadow: 2px 3px 6px 0px rgba(150, 150, 150, 0.5);
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #0c3357, #1f6787);
 }
 
 .tovar_bg {
