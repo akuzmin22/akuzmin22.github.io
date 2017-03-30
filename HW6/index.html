@@ -17,7 +17,8 @@
           <i class="fa fa-user" aria-hidden="true"></i>
           <input type="text" name="login" placeholder="логин">
           <input type="password" name="password" placeholder="пароль">
-          <p><a href="#">вход</a> | <a href="#">регистрация</a></p>
+          <button type="button" name="enter">вход</button>
+          <p><span>|</span> <a href="#">регистрация</a></p>
           <p class="fpass"><a href="#">забыли пароль?</a></p>
         </form>
       </div>
@@ -117,33 +118,38 @@
       </div>
 
       <div class="content">
-        <div class="left_side">
+        <aside class="left_side">
           <h2><i class="fa fa-list-alt" aria-hidden="true"></i> каталог продукции:</h2>
-          <ul>
-            <h1><i class="fa fa-circle-o" aria-hidden="true"></i> шины</h1>
-            <li><a href="#">Наименование 1</a></li>
-            <li><a href="#">Наименование 2</a></li>
-            <li><a href="#">Наименование 3</a></li>
-            <li><a href="#">Наименование 4</a></li>
-          </ul>
-          <ul>
-            <h1><i class="fa fa-circle-o" aria-hidden="true"></i> диски</h1>
-            <li><a href="#">Наименование 1</a></li>
-            <li><a href="#">Наименование 2</a></li>
-            <li><a href="#">Наименование 3</a></li>
-            <li><a href="#">Наименование 4</a></li>
-          </ul>
-          <ul>
-            <h1><i class="fa fa-circle-o" aria-hidden="true"></i> болты</h1>
-            <li><a href="#">Наименование 1</a></li>
-            <li><a href="#">Наименование 2</a></li>
-            <li><a href="#">Наименование 3</a></li>
-            <li><a href="#">Наименование 4</a></li>
-          </ul>
+          <section>
+            <ul>
+              <h1><div class="circle"></div>шины</h1>
+              <li><a href="#">Наименование 1</a></li>
+              <li><a href="#">Наименование 2</a></li>
+              <li><a href="#">Наименование 3</a></li>
+              <li><a href="#">Наименование 4</a></li>
+            </ul>
+          </section>
+          <section>
+            <ul>
+              <h1><div class="circle"></div>диски</h1>
+              <li><a href="#">Наименование 1</a></li>
+              <li><a href="#">Наименование 2</a></li>
+              <li><a href="#">Наименование 3</a></li>
+              <li><a href="#">Наименование 4</a></li>
+            </ul>
+          </section>
+          <section>
+            <ul>
+              <h1><div class="circle"></div>болты</h1>
+              <li><a href="#">Наименование 1</a></li>
+              <li><a href="#">Наименование 2</a></li>
+              <li><a href="#">Наименование 3</a></li>
+              <li><a href="#">Наименование 4</a></li>
+            </ul>
+          </section>
+        </aside>
 
-
-        </div>
-        <div class="tovar_bg">
+        <main>
           <ul>
             <div>
               <h3>Goodyear</h3>
@@ -209,31 +215,34 @@
             </div>
 
           </ul>
-        </div>
+        </main>
 
-        <div class="right_side">
+        <aside class="right_side">
           <h2><i class="fa fa-list-alt" aria-hidden="true"></i> бренды:</h2>
-          <ul>
-            <h1><i class="fa fa-circle-o" aria-hidden="true"></i> шины</h1>
-            <li><input type="checkbox" name="n1" id="n1">
-            <label for="n1">Бренд 1</label></li>
-            <li><input type="checkbox" name="n2" id="n2">
-            <label for="n2">Бренд 2</label></li>
-            <li><input type="checkbox" name="n3" id="n3">
-            <label for="n3">Бренд 3</label></li>
-          </ul>
-          <ul>
-            <h1><i class="fa fa-circle-o" aria-hidden="true"></i> диски</h1>
-            <li><input type="checkbox" name="n4" id="n4">
-            <label for="n4">Бренд 1</label></li>
-            <li><input type="checkbox" name="n5" id="n5">
-            <label for="n5">Бренд 2</label></li>
-            <li><input type="checkbox" name="n6" id="n6">
-            <label for="n6">Бренд 3</label></li>
-          </ul>
+          <section>
+            <ul>
+              <h1><div class="circle"></div>шины</h1>
+              <li><input type="checkbox" name="n1" id="n1">
+              <label for="n1">Бренд 1</label></li>
+              <li><input type="checkbox" name="n2" id="n2">
+              <label for="n2">Бренд 2</label></li>
+              <li><input type="checkbox" name="n3" id="n3">
+              <label for="n3">Бренд 3</label></li>
+            </ul>
+          </section>
+          <section>
+            <ul>
+              <h1><div class="circle"></div>диски</h1>
+              <li><input type="checkbox" name="n4" id="n4">
+              <label for="n4">Бренд 1</label></li>
+              <li><input type="checkbox" name="n5" id="n5">
+              <label for="n5">Бренд 2</label></li>
+              <li><input type="checkbox" name="n6" id="n6">
+              <label for="n6">Бренд 3</label></li>
+            </ul>
+          </section>
           <button type="button" name="button">ВЫБРАТЬ</button>
-        </div>
-
+        </aside>
 
       </div>
 
